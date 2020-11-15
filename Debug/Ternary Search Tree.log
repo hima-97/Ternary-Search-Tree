@@ -1,0 +1,10 @@
+﻿  TST.cpp
+C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\TST.cpp(212,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\TST.cpp(220,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\TST.cpp(230,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\TST.cpp(242,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\TST.cpp(259,25): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\main.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Ternary Search Tree.vcxproj -> C:\Users\himak\Desktop\Computer Science\Projects\Ternary Search Tree\Debug\Ternary Search Tree.exe
