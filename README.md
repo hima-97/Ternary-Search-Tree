@@ -77,11 +77,24 @@ Passing the command `"range_search band to cat"` will output:
    bat
    cab
    calling
-   band
+   cat`, if these words are stored in the TST
+
+- `bankers
+   bat
+   cab
+   calling
+   cat`, if these words are stored in the TST except "band"
+
+- `band
    bankers
    bat
    cab
-   calling`, if these words are stored in the TST when doing the range search
+   calling`, if these words are stored in the TST except "cat"
+
+- `bankers
+   bat
+   cab
+   calling`, if these words are stored in the TST except "band" and "cat"
 
 # Running and testing the project
 
