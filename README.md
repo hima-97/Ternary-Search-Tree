@@ -22,6 +22,8 @@ The TST class has the following functions:
 -  A function for deleting a word from the TST if the count is 1 or decrement the count by 1 if the count is greater than 1
 -  A function for doing a range search
 -  A function to traverse and print the tree in LNR (in-order traversal)
+-  A function to traverse and print the tree in NLR (pre-order traversal)
+-  A function to traverse and print the tree in LRN (post-order traversal)
 
 # Insert function
 

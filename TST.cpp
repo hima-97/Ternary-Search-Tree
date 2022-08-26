@@ -577,3 +577,51 @@ void TST::printLNR(Node* node)
 	if (node->right != nullptr)
 		printLNR(node->right);
 }
+
+// Function to traverse and print the tree in NLR (pre-order traversal):
+void TST::printNLR(Node* node)
+{
+	// This prints the current node's left word (key), if there is one:
+	if (!(node->leftWord.empty()))
+		cout << "Left word (key) = " << node->leftWord << ", " << node->leftCount << endl;
+
+	// This prints the current node's right word (key), if there is one:
+	if (!(node->rightWord.empty()))
+		cout << "Right word (key) = " << node->rightWord << ", " << node->rightCount << endl;
+
+	// Checking the left subtree of the current node:
+	if (node->left != nullptr)
+		printNLR(node->left);
+
+	// Checking the middle subtree of the current node:
+	if (node->middle != nullptr)
+		printNLR(node->middle);
+
+	// Checking the right subtree of the current node:
+	if (node->right != nullptr)
+		printNLR(node->right);
+}
+
+// Function to traverse and print the tree in LRN (post-order traversal):
+void TST::printLRN(Node* node)
+{
+	// Checking the left subtree of the current node:
+	if (node->left != nullptr)
+		printLRN(node->left);
+
+	// Checking the middle subtree of the current node:
+	if (node->middle != nullptr)
+		printLRN(node->middle);
+
+	// Checking the right subtree of the current node:
+	if (node->right != nullptr)
+		printLRN(node->right);
+
+	// This prints the current node's left word (key), if there is one:
+	if (!(node->leftWord.empty()))
+		cout << "Left word (key) = " << node->leftWord << ", " << node->leftCount << endl;
+
+	// This prints the current node's right word (key), if there is one:
+	if (!(node->rightWord.empty()))
+		cout << "Right word (key) = " << node->rightWord << ", " << node->rightCount << endl;
+}

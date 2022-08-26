@@ -97,8 +97,17 @@ int main(int argc, char* argv[])
         }
     }
 
-    // Calling the function to print the tree:
-    // myTree.printLNR(myTree.root);
+    // Calling the function to traverse and print the tree in LNR (in-order traversal):
+    cout << endl << "Printing the TST in LNR (in-order traversal):" << endl;
+    myTree.printLNR(myTree.root);
+
+    // Calling the function to traverse and print the tree in NLR (pre-order traversal):
+    cout << endl << "Printing the TST in NLR (pre-order traversal):" << endl;
+    myTree.printNLR(myTree.root);
+
+    // Calling the function to traverse and print the tree in LRN (post-order traversal):
+    cout << endl << "Printing the TST in LRN (post-order traversal):" << endl;
+    myTree.printLRN(myTree.root);
 
     return 0;
 }

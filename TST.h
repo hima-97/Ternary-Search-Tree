@@ -60,4 +60,10 @@ public:
 
 	// Function to traverse and print the tree in LNR (in-order traversal):
 	void printLNR(Node* node);
+
+	// Function to traverse and print the tree in NLR (pre-order traversal):
+	void printNLR(Node* node);
+
+	// Function to traverse and print the tree in LRN (post-order traversal):
+	void printLRN(Node* node);
 };
