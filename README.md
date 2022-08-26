@@ -83,7 +83,7 @@ Passing the command `"range_search band to cat"` will output:
    cab
    calling", if these words are stored in the TST when doing the range search
 
-# Running and Testing the project
+# Running and testing the project
 
 You can run and test the full project by running the following command:
 
