@@ -1,0 +1,183 @@
+Test1.2
+
+        INPUT: "insert honour, insert honour, insert honour, insert brochure, insert brochure, insert fume, insert clear, insert zulu, insert yankee, insert triangle, insert stadium, insert microphone, insert zulu, insert karaoke"
+        
+	OUTPUT:
+ 
+		honour inserted, new count = 1
+		honour inserted, new count = 2
+		honour inserted, new count = 3
+		brochure inserted, new count = 1
+		brochure inserted, new count = 2
+		fume inserted, new count = 1
+		clear inserted, new count = 1
+		zulu inserted, new count = 1
+		yankee inserted, new count = 1
+		triangle inserted, new count = 1
+		stadium inserted, new count = 1
+		microphone inserted, new count = 1
+		zulu inserted, new count = 2
+		karaoke inserted, new count = 1
+
+
+Test 2.2
+
+        INPUT: "insert honour, insert honour, insert honour, insert brochure, insert brochure, insert fume, delete water, insert clear, insert zulu, delete brochure, delete honour, insert yankee, delete brochure, insert triangle, insert stadium, delete triangle, insert microphone, insert zulu, delete honour, delete honour, delete honour, delete zulu, delete clear, insert karaoke, delete fume, delete yankee, delete stadium, delete zulu, delete karaoke, delete microphone, insert last"
+        
+	OUTPUT:
+
+		honour inserted, new count = 1
+		honour inserted, new count = 2	
+		honour inserted, new count = 3
+		brochure inserted, new count = 1
+		brochure inserted, new count = 2
+		fume inserted, new count = 1
+		clear inserted, new count = 1
+		zulu inserted, new count = 1
+		brochure deleted, new count = 1
+		honour deleted, new count = 2
+		yankee inserted, new count = 1
+		brochure deleted
+		triangle inserted, new count = 1
+		stadium inserted, new count = 1
+		triangle deleted
+		microphone inserted, new count = 1
+		zulu inserted, new count = 2
+		honour deleted, new count = 1
+		honour deleted
+		zulu deleted, new count = 1
+		clear deleted
+		karaoke inserted, new count = 1
+		fume deleted
+		yankee deleted
+		stadium deleted
+		zulu deleted
+		karaoke deleted
+		microphone deleted
+		last inserted, new count = 1
+
+
+Test 3.2
+
+        INPUT: "insert honour, insert honour, insert honour, insert brochure, insert brochure, insert fume, lookup water, insert clear, insert zulu, delete brochure, delete honour, insert yankee, delete brochure, lookup brochure, insert triangle, insert stadium, delete triangle, lookup triangle, insert microphone, insert zulu, delete honour, delete honour, delete honour, lookup zulu, delete zulu, delete clear, insert karaoke, delete fume, delete yankee, delete stadium, delete zulu, delete karaoke, delete microphone, lookup honour, lookup microphone, insert last, lookup stadium, lookup last"
+        
+	OUTPUT:
+	
+		honour inserted, new count = 1
+		honour inserted, new count = 2
+		honour inserted, new count = 3
+		brochure inserted, new count = 1
+		brochure inserted, new count = 2
+		fume inserted, new count = 1
+		water not found
+		clear inserted, new count = 1
+		zulu inserted, new count = 1
+		brochure deleted, new count = 1
+		honour deleted, new count = 2
+		yankee inserted, new count = 1
+		brochure deleted
+		brochure not found
+		triangle inserted, new count = 1
+		stadium inserted, new count = 1
+		triangle deleted
+		triangle not found
+		microphone inserted, new count = 1
+		zulu inserted, new count = 2
+		honour deleted, new count = 1
+		honour deleted
+		zulu found, count = 2
+		zulu deleted, new count = 1
+		clear deleted
+		karaoke inserted, new count = 1
+		fume deleted
+		yankee deleted
+		stadium deleted
+		zulu deleted
+		karaoke deleted
+		microphone deleted
+		honour not found
+		microphone not found
+		last inserted, new count = 1
+		stadium not found
+		last found, count = 1
+		
+
+Test 4
+
+        INPUT: "insert bat, insert dog, insert cat, insert fire, insert indigo, insert apple, insert elephant, insert garden, insert home, insert juliet, insert karaoke, insert microphone, insert lion, range_search elephant to juliet, range_search box to car, range_search dunlop to elephant, range_search fire to zulu"
+        
+	OUTPUT:
+
+		bat inserted, new count = 1
+		dog inserted, new count = 1
+		cat inserted, new count = 1
+		fire inserted, new count = 1
+		indigo inserted, new count = 1	
+		apple inserted, new count = 1
+		elephant inserted, new count = 1
+		garden inserted, new count = 1
+		home inserted, new count = 1
+		juliet inserted, new count = 1
+		karaoke inserted, new count = 1
+		microphone inserted, new count = 1
+		lion inserted, new count = 1
+		elephant
+		fire
+		garden
+		home
+		indigo
+		juliet
+		elephant
+		fire
+		garden
+		home
+		indigo
+		juliet
+		karaoke
+		lion
+		microphone
+
+
+Test 5
+
+        INPUT: "insert honour, insert honour, insert honour, insert brochure, insert brochure, insert fume, lookup water, insert clear, insert zulu, delete brochure, delete honour, insert yankee, delete brochure, lookup brochure, insert triangle, insert stadium, delete triangle, lookup triangle, insert microphone, insert zulu, delete honour, delete honour, delete honour, lookup zulu, delete zulu, delete clear, insert karaoke, delete fume, delete yankee, delete stadium, delete zulu, delete karaoke, delete microphone, lookup honour, lookup microphone, insert last, lookup stadium, lookup last"
+        
+	OUTPUT:
+
+		honour inserted, new count = 1
+		honour inserted, new count = 2
+		honour inserted, new count = 3
+		brochure inserted, new count = 1
+		brochure inserted, new count = 2
+		fume inserted, new count = 1
+		water not found
+		clear inserted, new count = 1
+		zulu inserted, new count = 1
+		brochure deleted, new count = 1
+		honour deleted, new count = 2
+		yankee inserted, new count = 1
+		brochure deleted
+		brochure not found
+		triangle inserted, new count = 1
+		stadium inserted, new count = 1
+		triangle deleted
+		triangle not found
+		microphone inserted, new count = 1
+		zulu inserted, new count = 2
+		honour deleted, new count = 1
+		honour deleted
+		zulu found, count = 2
+		zulu deleted, new count = 1
+		clear deleted
+		karaoke inserted, new count = 1
+		fume deleted
+		yankee deleted
+		stadium deleted
+		zulu deleted
+		karaoke deleted
+		microphone deleted
+		honour not found
+		microphone not found
+		last inserted, new count = 1
+		stadium not found
+		last found, count = 1
