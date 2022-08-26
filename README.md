@@ -8,17 +8,17 @@ Each node in the TST is a pair of (word, count) where word serves as the key and
 and shows the number of occurrences of the word in the underlying dataset represented by the current instance of the TST.
 
 The search property holds as before:
-• The left sub-tree has keys smaller than K-left
-• The right sub-tree has keys larger than K-right
-• The middle sub-tree has keys larger than K-left and smnaller than K-right
+- The left sub-tree has keys smaller than K-left
+- The right sub-tree has keys larger than K-right
+- The middle sub-tree has keys larger than K-left and smnaller than K-right
 
 The TST class has the following functions:
-•  A constructor and a destructor
-•  A method for searching a word in the TST (the word may not exist in the dataset)
-•  A function for inserting a new word into the TST if the word does not exist or increment the count by 1 if the word already exists
-•  A function for deleting a word from the TST if the count is 1 or decrement the count by 1 if the count is greater than 1
-•  A function for doing a range search
-•  A function to traverse and print the tree in LNR (in-order traversal)
+-  A constructor and a destructor
+-  A method for searching a word in the TST (the word may not exist in the dataset)
+-  A function for inserting a new word into the TST if the word does not exist or increment the count by 1 if the word already exists
+-  A function for deleting a word from the TST if the count is 1 or decrement the count by 1 if the count is greater than 1
+-  A function for doing a range search
+-  A function to traverse and print the tree in LNR (in-order traversal)
 
 # Insert function
 
