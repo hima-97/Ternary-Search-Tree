@@ -10,7 +10,7 @@ Therefore, a ternary tree node will store two keys (i.e. K-left and K-right) and
 Each node in the TST is a pair of (word, count) where word serves as the key and count is the value associated with the key
 and shows the number of occurrences of the word in the underlying dataset represented by the current instance of the TST.
 
-The search property holds as before:
+The search property holds as the following:
 - The left sub-tree has keys smaller than K-left
 - The right sub-tree has keys larger than K-right
 - The middle sub-tree has keys larger than K-left and smaller than K-right
