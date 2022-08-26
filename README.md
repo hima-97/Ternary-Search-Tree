@@ -81,7 +81,7 @@ Passing the command `"range_search band to cat"` will output:
    bankers
    bat
    cab
-   calling", if these words were stored in the TST upon doing the range search
+   calling", if these words are stored in the TST when doing the range search
 
 # Running and Testing the project
 
