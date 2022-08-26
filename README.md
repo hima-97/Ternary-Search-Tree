@@ -1,16 +1,19 @@
 # Project Description
 
-This project consists of implementing a Ternary Search Tree (TST), a variant of binary search tree. 
+This project consists of implementing a Ternary Search Tree (TST), a variant of binary search tree.
+
 Binary search tree and its variants are members of a class of search tree called multi-way search trees. 
+
 A node in a multi-way search tree stores k keys and therefore has k + 1 children. 
-Therefore a ternary tree node will store two keys (i.e. K-left and K-right) and three children (i.e. left child, middle child, and right child).
+Therefore, a ternary tree node will store two keys (i.e. K-left and K-right) and three children (i.e. left child, middle child, and right child).
+
 Each node in the TST is a pair of (word, count) where word serves as the key and count is the value associated with the key
 and shows the number of occurrences of the word in the underlying dataset represented by the current instance of the TST.
 
 The search property holds as before:
 - The left sub-tree has keys smaller than K-left
 - The right sub-tree has keys larger than K-right
-- The middle sub-tree has keys larger than K-left and smnaller than K-right
+- The middle sub-tree has keys larger than K-left and smaller than K-right
 
 The TST class has the following functions:
 -  A constructor and a destructor
