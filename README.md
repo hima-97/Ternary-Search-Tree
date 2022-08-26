@@ -92,5 +92,5 @@ You can run and test the full project by running the following command:
 - Note: replace "insert argv[1] string argument here" with an input string from the "Test cases.txt" file
         or you can also test your own input string following the same format
 
-- Note: the { g++ TST.cpp main.cpp -o TST } command compiles the TST.cpp and main.cpp files,
+- Note: the "{ g++ TST.cpp main.cpp -o TST }" command compiles the TST.cpp and main.cpp files,
         producing a TST executable file
