@@ -25,39 +25,39 @@ The TST class has the following functions:
 Function for inserting a new word into the TST if the word does not exist or increment the count by 1 if the word already exists.
 
 Upon passing the string command `"insert [word]"` via argv[1], the program should print out:
-- “[word] inserted, new count = [count]”
+- `[word] inserted, new count = [count]`
 
 Example:
 Passing the command `"insert goodbye"` will output:
-- "goodbye inserted, new count = 1", if there was no "goodbye" in the TST upon inserting
-- "goodbye inserted, new count = 3", if there were two "goodbye" in the TST upon inserting
+- `goodbye inserted, new count = 1`, if there was no "goodbye" in the TST upon inserting
+- `goodbye inserted, new count = 3`, if there were two "goodbye" in the TST upon inserting
 
 # Lookup function
 
 Function for searching a word in the TST (the word may not exist in the dataset).
 
 Upon passing the string command `"lookup [word]"` via argv[1], the program should print out:
-- “[word] found, count = [count of the word]”, if the word is found
-- “[word] not found”, if the word is not found in the TST
+- `[word] found, count = [count of the word]`, if the word is found
+- `[word] not found`, if the word is not found in the TST
 
 Example:
 Passing the command `"lookup hello"` will output:
-- "hello found, count = 2", if the TST contains two "hello"
-- "hello not found", if "hello" is not in the data structure
+- `hello found, count = 2`, if the TST contains two "hello"
+- `hello not found`, if "hello" is not in the data structure
 
 # Delete function
 
 Function for deleting a word from the TST if the count is 1 or decrement the count by 1 if the count is greater than 1.
 
 Upon passing the string command `"delete [word]"` via argv[1], the program should print out:
-- “[word] deleted, new count = [count]”, if the word has count > 1
-- “[word] deleted”, if the word has count = 1
+- `[word] deleted, new count = [count]`, if the word has count > 1
+- `[word] deleted`, if the word has count = 1
 - Print nothing if the word is not present in the TST
 
 Example:
 Passing the command `"delete yesterday"` will output:
-- "yesterday deleted, new count = 2", if there are three "yesterday" before deletion
-- "yesterday deleted", if "yesterday" had a count of 1 before deletion
+- `yesterday deleted, new count = 2`, if there are three "yesterday" before deletion
+- `yesterday deleted`, if "yesterday" had a count of 1 before deletion
 
 # Range function
 
@@ -72,7 +72,7 @@ Upon passing the string command `"range_search [word1] to [word2]"` via argv[1],
 
 Example:
 Passing the command `"range_search band to cat"` will output:
-- "band
+- `band
    bankers
    bat
    cab
@@ -81,7 +81,7 @@ Passing the command `"range_search band to cat"` will output:
    bankers
    bat
    cab
-   calling", if these words are stored in the TST when doing the range search
+   calling`, if these words are stored in the TST when doing the range search
 
 # Running and testing the project
 
