@@ -72,17 +72,17 @@ Upon passing the string command `"range_search [word1] to [word2]"` via argv[1],
 
 Example:
 Passing the command `"range_search band to cat"` will output:
+- `band
 
-`band
-bankers
-bat
-cab
-calling
-band
-bankers
-bat
-cab
-calling`, if these words are stored in the TST when doing the range search
+   bankers
+   bat
+   cab
+   calling
+   band
+   bankers
+   bat
+   cab
+   calling`, if these words are stored in the TST when doing the range search
 
 # Running and testing the project
 
