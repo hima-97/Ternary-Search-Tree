@@ -72,7 +72,7 @@ Upon passing the string command `"range_search [word1] to [word2]"` via argv[1],
 
 Example:
 Passing the command `"range_search band to cat"` will output:
-- `band
+- `band \n
    bankers
    bat
    cab
