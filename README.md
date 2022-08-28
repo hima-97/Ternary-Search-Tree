@@ -25,7 +25,7 @@ The TST class has the following functions:
 -  A function to traverse and print the tree in NLR (pre-order traversal)
 -  A function to traverse and print the tree in LRN (post-order traversal)
 
-# Insert function
+# Insert Function
 
 Function for inserting a new word into the TST if the word does not exist or increment the count by 1 if the word already exists.
 
@@ -37,7 +37,7 @@ Passing the command `"insert goodbye"` will output:
 - `goodbye inserted, new count = 1`, if there was no "goodbye" in the TST upon inserting
 - `goodbye inserted, new count = 3`, if there were two "goodbye" in the TST upon inserting
 
-# Lookup function
+# Lookup Function
 
 Function for searching a word in the TST (the word may not exist in the dataset).
 
@@ -50,7 +50,7 @@ Passing the command `"lookup hello"` will output:
 - `hello found, count = 2`, if the TST contains two "hello"
 - `hello not found`, if "hello" is not in the data structure
 
-# Delete function
+# Delete Function
 
 Function for deleting a word from the TST if the count is 1 or decrement the count by 1 if the count is greater than 1.
 
@@ -64,7 +64,7 @@ Passing the command `"delete yesterday"` will output:
 - `yesterday deleted, new count = 2`, if there are three "yesterday" before deletion
 - `yesterday deleted`, if "yesterday" had a count of 1 before deletion
 
-# Range function
+# Range Function
 
 Function for doing a range search in the TST.
 The program should print out all words alphabetically in between (and including if present) the two words provided in the range search that are in the TST.
@@ -101,7 +101,7 @@ Passing the command `"range_search band to cat"` will output:
    cab
    calling`, if these words are stored in the TST except "band" and "cat"
 
-# Running and testing the project
+# Running and Testing the Project
 
 You can run and test the full project by running the following command:
 
