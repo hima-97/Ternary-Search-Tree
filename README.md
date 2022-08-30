@@ -63,6 +63,7 @@ Example:
 Passing the command `"delete yesterday"` will output:
 - `yesterday deleted, new count = 2`, if there are three "yesterday" before deletion
 - `yesterday deleted`, if "yesterday" had a count of 1 before deletion
+- Print nothing if "yesterday" is not present in the TST
 
 # Range Function
 
