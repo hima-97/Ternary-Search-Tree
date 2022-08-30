@@ -34,8 +34,8 @@ Upon passing the string command `"insert [word]"` via argv[1], the program shoul
 
 Example:
 Passing the command `"insert goodbye"` will output:
-- `goodbye inserted, new count = 1`, if there was no "goodbye" in the TST upon inserting
-- `goodbye inserted, new count = 3`, if there were two "goodbye" in the TST upon inserting
+- `goodbye inserted, new count = 1`, if there was no "goodbye" in the TST before inserting
+- `goodbye inserted, new count = 3`, if there were two "goodbye" in the TST before inserting
 
 # Lookup Function
 
