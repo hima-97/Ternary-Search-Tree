@@ -102,6 +102,16 @@ Passing the command `"range_search band to cat"` will output:
    cab
    calling`, if these words are stored in the TST except "band" and "cat"
 
+# Tools and Concepts
+- Languages: C++
+- VSCode
+- Object-Oriented Programming (OOP)
+- Recursion
+- Search trees
+- Pointers
+- String manipulation
+- Vectors
+
 # Running and Testing the Project
 
 You can run and test the full project by running the following command:
