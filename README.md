@@ -109,6 +109,8 @@ Passing the command `"range_search band to cat"` will output:
 - Recursion
 - Search trees
 - Pointers
+- Heap
+- Dynamic memory allocation
 - String manipulation
 - Vectors
 
